@@ -4,14 +4,14 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**MANUAL NAME**
-=================
+**Discovery Environment Manual**
+=================================
 
 .. #### Comment: If the platform has an ICON place it here
 
-Welcome to [Platform]!
------------------------
-.. #### Comment: If the platform has an ICON place it here
+Welcome to the Discovery Environment!
+--------------------------------------
+|DE_logo|
 
 ----
 
@@ -19,24 +19,16 @@ Welcome to [Platform]!
 	:maxdepth: 2
 
 	[Platform] Manual home <self>
-	[Platform] Major functionality n <step1.rst>
-	[Platform] Last major functionality <step2.rst>
+	[Platform] Navigating the Discovery Environment <navigate.rst>
+	[Platform] Managing Data Files and Folders  <data.rst>
+	[Platform] Using the Apps Window and Submitting an Analysis <apps.rst>
+	[Platform] Creating a New App Interface  <new_apps.rst>
+	[Platform] Using the Analyses Window <analyses.rst>
 	[Platform] FAQs <faq.rst>
 	Delete this example guide page <example_directives_delete.rst>
 
-..
-	#### Comment: This manual has multiple pages. The table of contents assumes
-	you have an additional page called 'Platform Dashboard/Landing Page' with
-	content located in 'step1.rst'. Copy 'step2.rst' as many times as needed
-	for each major feature you using, and increment the number in your filename.
-	Finally, make sure that the last major feature uses the 'step3.rst' template,
-	as it has slightly different formatting to end the document.
-	Edit these titles and filenames as needed. Finally use 'faq.rst' to
-	create your list of Frequently Asked Questions. ####
-----
 
-.. #### Comment: Each platform should have a quick slide show or possibly video
-   tour. Slide shows should be HTML5, videos from YouTube
+----
 
 .. raw:: html
 
@@ -49,18 +41,24 @@ Welcome to [Platform]!
 
 ----
 
-
 5 Quick FYIs about [Platform]:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. #### Comment: Give ONE SENTENCE answers to each of the following, think
    Elevator pitch, not campaign speech.
 
-- **What**: The platform is...
-- **Why**: Some of the most important uses of the platform are...
-- **When**: To use the platform
-- **How**: To use the platform
-- **Where**: Platform URL
+- **What**: The Discovery Environment (DE) allows you to manage, share, and
+  analyze data in a simple web-interface
+- **Why**: Using the DE allows you to use hundreds of bioinformatics
+  applications without the command line, and without the need to manage your own
+  storage and compute
+- **When**: The DE shines when you want a easy-to-use graphical interface. The
+  DE |VICE| interface allows you to use RStudio or Jupyter Labs when you need
+  more flexibility
+- **How**: The DE is largely intuitive. If you are working with large data, you
+  may want to upload it using |Cyberduck| so that you can work with the data in
+  the DE
+- **Where**: |Discovery Environment|
 
 ----
 
@@ -95,9 +93,7 @@ Downloads, access, and services
 
 ----
 
-|Home_Icon|_
-
-`Learning Center Home <http://learning.cyverse.org/>`__
+|Home_Icon|_ `Learning Center Home <http://learning.cyverse.org/>`__
 
 
 .. Comment: Place Images Below This Line
@@ -111,10 +107,9 @@ Downloads, access, and services
     :height: 100
  .. _CyVerse logo: http://learning.cyverse.org/
 
- .. |Static image| image:: ./img/IMAGENAME.png
-    :width: 25
-    :height: 25
-
+.. |DE_logo| image:: ./img/de/de-icon.png
+    :width: 100
+    :height: 100
 
 
 .. Comment: Place URLS Below This Line
@@ -130,4 +125,9 @@ Downloads, access, and services
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/discovery_environment_manual" target="_blank">Github Repo Link</a>
+
+
+.. |Cyberduck| raw:: html
+
+   <a href="https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step1.html" target="_blank">Cyberduck</a>
