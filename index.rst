@@ -18,13 +18,13 @@ Welcome to the Discovery Environment!
 .. toctree::
 	:maxdepth: 2
 
-	[Platform] Manual home <self>
-	[Platform] Navigating the Discovery Environment <navigate.rst>
-	[Platform] Managing Data Files and Folders  <data.rst>
-	[Platform] Using the Apps Window and Submitting an Analysis <apps.rst>
-	[Platform] Creating a New App Interface  <new_apps.rst>
-	[Platform] Using the Analyses Window <analyses.rst>
-	[Platform] FAQs <faq.rst>
+	Discovery Environment Manual home <self>
+	Navigating the Discovery Environment <navigate.rst>
+	Discovery Environment: Managing Data Files and Folders  <data.rst>
+	Discovery Environment: Using the Apps Window and Submitting an Analysis <apps.rst>
+	Discovery Environment: Creating a New App Interface  <new_apps.rst>
+	Discovery Environment: Using the Analyses Window <analyses.rst>
+	Discovery Environment: FAQs <faq.rst>
 	Delete this example guide page <example_directives_delete.rst>
 
 
