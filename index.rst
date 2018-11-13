@@ -28,6 +28,7 @@ Welcome to the Discovery Environment!
 	Delete this example guide page <example_directives_delete.rst>
 
 
+
 ----
 
 .. raw:: html
